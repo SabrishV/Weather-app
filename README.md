@@ -1,53 +1,81 @@
-# Weather Web
+# Weather App
 
-A simple weather website that fetches real-time weather data using the OpenWeather API. It displays the weather conditions of top cities on page load and allows users to search for the weather of any city.
+A modern weather application built with Next.js, TypeScript, and Tailwind CSS that provides real-time weather information with beautiful animations and interactive features.
 
 ## Features
 
-- Displays weather for top cities on page load.
-- Search for any city to get real-time weather updates.
-- Displays temperature, humidity, wind speed, and weather icons.
-- Smooth UI with animations and responsive design.
+- 🌍 Real-time weather data for any location worldwide  
+- 🎨 Beautiful animated weather effects  
+- 📱 Responsive design for all devices  
+- 🗺️ Interactive weather map  
+- 📊 Detailed weather information  
+- 🌡️ Temperature, humidity, and wind speed  
+- 🌅 Sunrise and sunset times  
+- 📅 5-day weather forecast  
+- ⚡ Real-time updates  
+
+## 📸 Overview
+
+Take a look at the Weather App in action:
+
 
 ## Technologies Used
 
-- HTML
-- CSS
-- JavaScript
-- OpenWeather API
-- Font Awesome for icons
+- Next.js 14  
+- TypeScript  
+- Tailwind CSS  
+- Framer Motion  
+- OpenWeatherMap API  
+- OpenLayers (for map visualization)  
 
-## Installation
+## Getting Started
 
-1. Clone the repository:
-   ```sh
-   git clone https://github.com/SabrishV/Weather-web.git
-   
-2. Navigate to the project folder:
-   ```sh
-   cd weather-web
-   
-3. Open index.html in your browser.
+### 1. Clone the repository:
+    git clone https://github.com/SabrishV/weather-app.git
+    cd weather-app
 
-## Usage
+### 2. Install dependencies:
+    npm install
 
-1. On page load, the weather of predefined top cities is displayed.
-2. Enter a city name in the search bar and press enter or click the search button.
-3. Weather details of the searched city will be displayed.
+### 3. Create a `.env.local` file in the root directory and add your OpenWeatherMap API key:
+    NEXT_PUBLIC_WEATHER_API_KEY=your_api_key_here
 
-## API Configuration
+### 4. Run the development server:
+    npm run dev
 
-- This project uses OpenWeather API.
-- Replace the apiKey in script.js with your OpenWeather API key:
-  js
-  const apiKey = "YOUR_API_KEY";
-  
-- If you don't have an API key, get one from [OpenWeather](https://openweathermap.org/).
+### 5. Open your browser and visit:
+    http://localhost:3000
 
-## Screenshots
+## API Key Setup
 
-![Weather App Screenshot](https://github.com/SabrishV/Weather-web/blob/main/images/Screenshot%20(1).png)
+1. Sign up for a free API key at https://openweathermap.org/api  
+2. Create a `.env.local` file in the root of the project  
+3. Add the API key:
+    NEXT_PUBLIC_WEATHER_API_KEY=your_api_key_here
 
-## Author
+### > 💡 The app provides detailed real-time weather data including:
 
-[Sabrish Varadharajan](https://github.com/SabrishV)
+    - 🌡️ Temperature: current, min, max, and feels like  
+    - 💧 Humidity  
+    - 🌬️ Wind speed, direction, and gusts  
+    - 📈 Pressure  
+    - 🌫️ Cloud cover  
+    - 🌦️ Rainfall (mm)  
+    - 🌍 Air quality index  
+    - 🌄 Sunrise and 🌇 Sunset times  
+    - 📅 5-day weather forecast  
+    - 🗺️ Interactive map layers:
+        - Precipitation  
+        - Clouds  
+        - Temperature  
+        - Wind  
+
+## License
+
+This project is licensed under the MIT License - see the LICENSE file for details.
+
+## Acknowledgments
+
+- OpenWeatherMap API for weather data  
+- OpenLayers for map visualization  
+- Framer Motion for animations
