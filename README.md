@@ -16,7 +16,9 @@ A modern weather application built with Next.js, TypeScript, and Tailwind CSS th
 
 ## 📸 Overview
 
-Take a look at the Weather App in action:
+Take a look at the Weather App in action: 
+![Sab Weather App GIF](https://github.com/SabrishV/Weather-app/blob/main/public/Sab%2BWeather%2BApp%2Bpreview%20(2).gif)
+
 
 
 ## Technologies Used
